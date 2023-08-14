@@ -1,0 +1,121 @@
+
+.col-md-6{
+    color: #507ac9;
+}
+p{
+    color: #000;
+    font-weight: bold;
+}
+.second-section{
+    background-color: #978e8e;
+    margin-bottom: 30px;
+}
+.third-section {
+    background-color: #002366; /* Cobalt blue background color */
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff; /* Set text color to contrast with the background */
+}
+
+
+.custom-submit {
+        border: 1px solid #000; /* Black border */
+    }
+
+
+/* Custom styles for the background image in the first section */
+.first-section {
+    background-image: url('img/bg.jpg'); /* Replace with the actual image path */
+    background-size: cover;
+    height: 60vh;
+    background-position: center;
+    color: #fff; /* Set text color to contrast with the background */
+}
+
+/* Custom styles for the service cards */
+.service-card {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.service-image {
+    flex: 1;
+    margin-right: 20px;
+    max-width: 100%;
+    height: auto;
+      max-width: 100%; /* Set the maximum width to 100% of the container */
+    height: auto; /* Maintain aspect ratio */
+    width: auto;
+}
+
+.service-content {
+    flex: 2;
+}
+
+.service-title {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.service-description {
+    color: #555;
+}
+
+/* Custom styles for the service cards */
+.service-card {
+    border: none;
+    display: flex;
+}
+
+.card-img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover; /* Ensure images maintain aspect ratio */
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-text {
+    margin: 0;
+}
+
+.second-section {
+    margin-bottom: 30px;
+}
+
+/* Ensure all service cards have equal height */
+.service-card > .row {
+    flex-grow: 1;
+}
+
+/* Custom styles for the doctors page */
+
+/* Center the doctor card titles */
+.card-title {
+    text-align: center;
+}
+
+/* Add space between doctor cards */
+.card {
+    margin-bottom: 20px;
+}
+
+/* Limit the width of the card images */
+.card-img-top {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Center the doctor cards within the row */
+.row.justify-content-center {
+    justify-content: center;
+}
